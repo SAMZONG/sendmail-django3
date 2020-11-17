@@ -27,9 +27,11 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-EMAIL_HOST = 'smtp.zoho.in'
-EMAIL_HOST_USER = 'jerin.thomas@zohomail.in'
-EMAIL_HOST_PASSWORD = '12419561'
+# Before running this project, Updating you smtp server settings
+
+EMAIL_HOST = 'SMTP.HOST.COM'
+EMAIL_HOST_USER = 'XXX@XXXX.COM'
+EMAIL_HOST_PASSWORD = 'PASSSWORD'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
